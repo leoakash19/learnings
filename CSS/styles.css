@@ -1,0 +1,14 @@
+#para1 {
+    color:red;
+}
+p{
+    font: size 1000px;
+    color: aquamarine;
+    background-color: blue;
+    border: 10px solid green;
+}
+
+.common {
+    background-color: greenyellow;
+    color: red;
+}
