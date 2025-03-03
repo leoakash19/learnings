@@ -1,0 +1,136 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+
+.main-div {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#logo {
+    font-size: 56px;
+    color: #0866ff;
+    padding: 25px 0px;
+}
+
+.signup-form {
+    background-color: white;
+    width: 430px;
+    border-radius: 8px;
+}
+
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.input-contents {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+select,
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.half-width {
+    width: 48%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.full-width {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+label {
+    font-size: 12px;
+    color: #606770;
+    padding: 5px;
+}
+
+.dob {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.quat-width {
+    width: 31%;
+    display: flex;
+}
+
+.radio-btn {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio-label {
+    padding-bottom: 0;
+    font-size: 15px;
+}
+
+.radio-input {
+    margin: 0;
+    width: auto;
+
+}
+small{
+    font-size: 11px;
+    color: #777;
+    margin: 1em 0;
+}
+a{
+    text-decoration: none;
+}
+.signup-btn{
+    border: 0;
+    background-color:#00a400 ;
+    color: white;
+    padding: 8px 55px ;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-div{
+    padding: 15px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.account-signin{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+    padding: 5px 0;
+}
